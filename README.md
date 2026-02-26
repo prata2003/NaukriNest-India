@@ -7,16 +7,16 @@ NaukriNest India is a front-end job portal that simulates real-world job searchi
 
 Features
 
-✅ Search by Job Title
-✅ Search by Location
-✅ Filter by Category (IT, Finance, Marketing, Design)
-✅ Filter by Experience Level (Fresher, Mid-Level, Senior)
-✅ Filter by Salary Range
-✅ Pagination (4 jobs per page)
-✅ Dark Mode Toggle 🌙
-✅ View Job Details (Modal Popup)
-✅ Save Job (Stored in LocalStorage)
-✅ Responsive Design
+ Search by Job Title,
+ Search by Location,
+ Filter by Category (IT, Finance, Marketing, Design),
+ Filter by Experience Level (Fresher, Mid-Level, Senior),
+ Filter by Salary Range,
+ Pagination (4 jobs per page),
+ Dark Mode Toggle 🌙,
+ View Job Details (Modal Popup),
+ Save Job (Stored in LocalStorage),
+ Responsive Design,
 
 Technologies Used
 
