@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaukriNest India</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <h1>🇮🇳 NaukriNest India</h1>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<section class="filters">
+  <input type="text" id="searchTitle" placeholder="Search Job Title">
+  <input type="text" id="searchLocation" placeholder="Search Location">
+
+  <select id="categoryFilter">
+    <option value="">All Categories</option>
+    <option value="IT">IT</option>
+    <option value="Finance">Finance</option>
+    <option value="Marketing">Marketing</option>
+    <option value="Design">Design</option>
+  </select>
+
+  <select id="experienceFilter">
+    <option value="">All Experience</option>
+    <option value="Fresher">Fresher</option>
+    <option value="Mid">Mid-Level</option>
+    <option value="Senior">Senior</option>
+  </select>
+
+  <select id="salaryFilter">
+    <option value="">Salary Range</option>
+    <option value="0-500000">Below ₹5 LPA</option>
+    <option value="500000-1000000">₹5-10 LPA</option>
+    <option value="1000000-2000000">Above ₹10 LPA</option>
+  </select>
+
+  <button onclick="resetFilters()">Reset</button>
+</section>
+
+<section id="jobContainer" class="job-container"></section>
+
+<div id="emptyState" class="empty-state">No jobs found 😢</div>
+
+<div id="pagination" class="pagination"></div>
+
+<!-- Modal -->
+<div class="modal" id="jobModal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div id="modalDetails"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
